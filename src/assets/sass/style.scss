@@ -1,46 +1,65 @@
+// other
+@import "other/bootstrap-reboot";
+
+
 *{
     font-family: 'Roboto', sans-serif;
 }
-.container{
-    width: 1140px;
-    margin: 0 auto;
-}
-@media (min-width: 1400px) {
+
+
+@media (max-width: 576px) {
     .container{
-        width: 1320px;
-    }
-}
-@media (min-width: 1200px) {
-    .container{
-        width: 1140px;
-    }
-}
-@media (min-width: 992px) {
-    .container{
-        width: 960px;
-    }
-}
-@media (min-width: 768px) {
-    .container{
-        width: 720px;
+        max-width: 100%;
     }
 }
 @media (min-width: 576px) { 
     .container{
-        width: 540px;
+        max-width: 540px;
     }
 }
-@media (max-width: 576px) {
+@media (min-width: 768px) {
     .container{
-        width: 100%;
+        max-width: 720px;
     }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1320px;
+    }
+}
+.container{
+    margin: 0 auto;
 }
 
 
-// @import "animations";
-@import "vars";
 
+
+
+
+@import "vars";
 @import "1header";
+@import "2fscreen";
+@import "3benefits";
+@import "4more";
+@import "5agent_xi";
+@import "6price";
+@import "7consultation";
+@import "8managers";
+@import "9width_us";
+@import "10reviews";
+@import "11question";
+@import "12map";
+@import "13footer";
 
 
 
