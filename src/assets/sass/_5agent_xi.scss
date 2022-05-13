@@ -4,22 +4,24 @@
     background: url(../img/5agent_xi/bg.png) center center/ cover no-repeat;
 }
 
-.agent_xi {
-    &__icon{
-        height: 102px;
-        width: 102px;
+
+
+.circle{
+    width: 102px;
+    height: 102px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    &__agent_xi{
         margin: 0 auto;
         margin-bottom: 20px;
         border: 1px solid #fff;
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        & img{
-
-        }
-    }
+    }   
 }
+
 .title {
     &__agent_xi{
         margin-bottom: 20px;

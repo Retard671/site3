@@ -4,3 +4,126 @@
     padding: 50px 0 0px 0;
     background-color: $bg_white;
 }
+
+
+.price__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.delivery {
+    padding: 80px 13px 25px 13px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 30px;
+    width: 23%;
+    position: relative;
+
+
+    &__header{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 61px;
+        width: calc(100% - 4px);
+        background-color: $footer_bg;
+
+        & div{
+            width: 90%;
+            position: absolute;
+            left: 50%;
+            top: 50%;                         
+            transform: translate(-50%, -50%);
+
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 23px;
+
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+    &__img{
+        width: 61px;
+        height: 58px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        & img{
+
+        }
+    }
+    &__time{
+        margin-bottom: 5px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+
+        text-align: center;
+        text-transform: uppercase;
+        color: $text_black;
+    }
+    &__price{
+        margin-bottom: 20px;
+
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 30px;
+
+        text-align: center;
+        color: $text_orange;
+    }
+    &__descr {
+        margin-bottom: 25px;
+
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+
+        text-align: center;
+        color: $text_black;
+    }
+}
+
+
+.btn {
+    &__delivery{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+    .price__items{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .delivery {
+        width: 47%;  
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) { 
+        .price__items{
+        display: flex;
+        justify-content: center;
+
+    }
+    .delivery {
+        width: 80%;  
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 320px) {
+}

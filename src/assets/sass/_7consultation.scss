@@ -1,0 +1,99 @@
+.consultation {
+    min-height: 380px;
+    padding: 30px 0 80px 0;
+    background-color: $bg_white;
+}
+
+.title {
+    &_consultation{
+        margin-bottom: 70px;
+
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+
+        text-align: center;
+        color: $text_black2;
+    }
+}
+
+
+
+.circle{
+    &__consultation{
+        border: 1px solid $btncolor; 
+        & img{
+
+        }
+    }
+}
+.consultation {
+    &__border{
+        position: relative;
+       min-height: 166px; 
+       width: 100%;
+       border: 1px solid #c4c4c4;
+       padding: 60px 150px 50px;
+    }
+    &__picture{
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translate(-50%, 0%);
+        padding: 0 10px;
+        background-color: #fff;
+    }
+    &__form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__input{
+        width: 270px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid #c9c9c9;
+        margin: 10px 3px;
+        padding: 15px 30px;
+        outline: none;
+    }
+    &__btn{
+        position: absolute;
+        left: 50%;
+        bottom: -22px;
+        transform: translate(-50%, 0%);
+        padding: 0 15px;
+        background-color: #fff;
+    }
+}
+.btn {
+    &__consultation{
+        width: 180px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+    .consultation__border{
+        width: 90%;
+        margin: 0 auto;
+        padding: 60px 10px 50px;
+    } 
+}
+@media (max-width: 320px) {
+    .consultation {
+        &__input{
+        width: 220px;
+        }
+    }
+}
