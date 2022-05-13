@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- для гугл карт -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- для гугл карт -->
+
     <link rel="stylesheet" href="assets/css/style.min.css" />
     <title>GlobalOpt</title>
   </head>
@@ -380,12 +384,64 @@
       </div>
     </section>
 
-    <!-- <section class="reviews">
+    <section class="reviews">
       <div class="container">
-        <h4 class="title reviews">отзывы наших клиентов</h4>
+        <h4 class="title title_more">отзывы наших клиентов</h4>
         <div class="more__line"></div>
-        <h5 class="subtitle reviews">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</h5>
+        <h5 class="subtitle subtitle_reviews subtitle_more">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</h5>
+        <div class="reviews__slider"></div>
       </div>
-    </section> -->
+    </section>
+
+    <section class="question">
+      <div class="container">
+        <div class="question__window">
+          <div class="question__header">
+            <div class="title title_question">Остались вопросы?</div>
+            <div class="subtitle subtitle_question">Напишите нам!</div>
+          </div>
+          <form action="" class="question__form">
+            <input type="text" name="name" class="consultation__input" placeholder="Ваше имя..." />
+            <input type="text" name="phone" class="consultation__input" placeholder="Ваш номер телефона..." />
+            <input type="text" name="email" class="consultation__input" placeholder="Ваш e-mail..." />
+            <textarea name="message" id="" class="question__textarea" cols="30" rows="2" placeholder="Ваше сообщение..."></textarea>
+            <button class="btn btn_question">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div id="map"></div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="header__container footer__container">
+          <div class="logo footer__logo">
+            <img src="assets/img/1fscreen/logo.png" alt="logo" class="logo__img" />
+          </div>
+          <div class="title title__footer">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+          <div class="call_me">
+            <div class="call_me__left">
+              <div class="call_me__text">Есть вопросы?</div>
+              <div class="call_me__phone">+7 (926) 423 01 00</div>
+            </div>
+            <button class="btn btn_call_me">перезвоните мне</button>
+          </div>
+        </div>
+        <div class="line line_footer"></div>
+        <div class="footer__underline">
+          <div class="footer__copyright">© 2010 Scratch.com.ua</div>
+          <a href="" class="footer__confidential_pol">Политика конфидециальности</a>
+          <div class="build_site">
+            <div class="build_site__text">Создание сайта:</div>
+            <img src="assets/img/13footer/build_site.png" alt="img" class="build_site__icon" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- api key  AIzaSyDS-8KrB8w1WfwAZcoR3-FIK0TDXLesgJk -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS-8KrB8w1WfwAZcoR3-FIK0TDXLesgJk&callback=initMap&v=weekly" defer></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

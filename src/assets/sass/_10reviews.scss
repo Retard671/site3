@@ -1,0 +1,13 @@
+.reviews {
+    min-height: 470px;
+    padding: 50px 0 65px 0;
+    background-color: #fff;
+}
+
+.subtitle {
+    &_reviews{
+        margin-bottom: 30px;
+    }
+}
+.reviews__slider {
+}
