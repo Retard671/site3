@@ -52,9 +52,11 @@ $(document).ready(function(){
   });
 });
 
-// function test(){
-//   let test1 = document.querySelectorAll('.slick-active');
-//   console.log(test1)
-//   test1[1].classList.add('center');
-// };
-// test();
+
+
+console.log(test(5));
+
+
+function test(n){
+  return n*n;
+}
