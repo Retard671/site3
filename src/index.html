@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- СЛИК -->
+    <link rel="stylesheet" type="text/css" href="assets/other/slick/slick.css" />
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="assets/other/slick/slick-theme.css" />
+    <!-- СЛИК -->
 
     <!-- для гугл карт -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -214,7 +220,7 @@
         <div class="circle circle__agent_xi">
           <img src="assets/img/5agent_xi/icon.png" alt="agent_xi__icon" />
         </div>
-        <div class="title title__agent_xi">Агент в Китае</div>
+        <h4 class="title title__agent_xi">Агент в Китае</h4>
         <div class="subtitle subtitle__agent_xi">
           Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим <br />запросам как по качеству, так и по цене.
         </div>
@@ -278,7 +284,7 @@
       <div class="container">
         <h5 class="title title_consultation">Заказать бесплатную консультацию</h5>
         <div class="consultation__border">
-          <form action="" class="consultation__form">
+          <form action="#" class="consultation__form">
             <div class="consultation__picture">
               <div class="circle circle__consultation">
                 <img src="assets/img/7consultation/consultation.png" alt="consultation.png" />
@@ -300,7 +306,7 @@
         <div class="circle circle__agent_xi">
           <img src="assets/img/8managers/managers.png" alt="agent_xi__icon" />
         </div>
-        <div class="title title__agent_xi">Менеджеры компании</div>
+        <h4 class="title title__agent_xi">Менеджеры компании</h4>
         <div class="subtitle subtitle__agent_xi">
           Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые <br />поставки от завода-изготовителя.
         </div>
@@ -384,27 +390,78 @@
       </div>
     </section>
 
+    <!-- ОТЗЫВЫ -->
     <section class="reviews">
       <div class="container">
-        <h4 class="title title_more">отзывы наших клиентов</h4>
+        <h4 class="title title_more title_reviews">отзывы наших клиентов</h4>
         <div class="more__line"></div>
         <h5 class="subtitle subtitle_reviews subtitle_more">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</h5>
-        <div class="reviews__slider"></div>
+      </div>
+      <div class="reviews__slider">
+        <div class="review">
+          <img src="assets/img/10reviews/rev2.png" alt="rev1.png" class="review__img" />
+          <div class="review__name">Дмитрий Иванов</div>
+          <div class="review__text">
+            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от
+            расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+          </div>
+        </div>
+        <div class="review">
+          <img src="assets/img/10reviews/rev1.png" alt="rev1.png" class="review__img" />
+          <div class="review__name">Анисимова Ольга</div>
+          <div class="review__text">
+            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от
+            расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+          </div>
+        </div>
+        <div class="review">
+          <img src="assets/img/10reviews/rev3.png" alt="rev1.png" class="review__img" />
+          <div class="review__name">Сергей Валиев</div>
+          <div class="review__text">
+            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от
+            расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+          </div>
+        </div>
+        <div class="review">
+          <img src="assets/img/10reviews/rev2.png" alt="rev1.png" class="review__img" />
+          <div class="review__name">Дмитрий Иванов</div>
+          <div class="review__text">
+            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от
+            расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+          </div>
+        </div>
+        <div class="review">
+          <img src="assets/img/10reviews/rev1.png" alt="rev1.png" class="review__img" />
+          <div class="review__name">Анисимова Ольга</div>
+          <div class="review__text">
+            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от
+            расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+          </div>
+        </div>
+        <div class="review">
+          <img src="assets/img/10reviews/rev3.png" alt="rev1.png" class="review__img" />
+          <div class="review__name">Сергей Валиев</div>
+          <div class="review__text">
+            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от
+            расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+          </div>
+        </div>
       </div>
     </section>
+    <!-- ОТЗЫВЫ -->
 
     <section class="question">
       <div class="container">
         <div class="question__window">
           <div class="question__header">
-            <div class="title title_question">Остались вопросы?</div>
+            <h4 class="title title_question">Остались вопросы?</h4>
             <div class="subtitle subtitle_question">Напишите нам!</div>
           </div>
-          <form action="" class="question__form">
+          <form action="#" class="question__form">
             <input type="text" name="name" class="consultation__input" placeholder="Ваше имя..." />
             <input type="text" name="phone" class="consultation__input" placeholder="Ваш номер телефона..." />
             <input type="text" name="email" class="consultation__input" placeholder="Ваш e-mail..." />
-            <textarea name="message" id="" class="question__textarea" cols="30" rows="2" placeholder="Ваше сообщение..."></textarea>
+            <textarea name="message" id="message" class="question__textarea" cols="30" rows="2" placeholder="Ваше сообщение..."></textarea>
             <button class="btn btn_question">Отправить заявку</button>
           </form>
         </div>
@@ -431,7 +488,7 @@
         <div class="line line_footer"></div>
         <div class="footer__underline">
           <div class="footer__copyright">© 2010 Scratch.com.ua</div>
-          <a href="" class="footer__confidential_pol">Политика конфидециальности</a>
+          <a href="#" class="footer__confidential_pol">Политика конфидециальности</a>
           <div class="build_site">
             <div class="build_site__text">Создание сайта:</div>
             <img src="assets/img/13footer/build_site.png" alt="img" class="build_site__icon" />
@@ -439,6 +496,12 @@
         </div>
       </div>
     </footer>
+
+    <!-- слик -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/other/slick/slick.min.js"></script>
+    <!-- слик -->
 
     <!-- api key  AIzaSyDS-8KrB8w1WfwAZcoR3-FIK0TDXLesgJk -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDS-8KrB8w1WfwAZcoR3-FIK0TDXLesgJk&callback=initMap&v=weekly" defer></script>
